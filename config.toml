@@ -6,7 +6,7 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
+# [YouTube]
 build-mode = "both"
 excluded-patches = ""
 included-patches = ""
@@ -15,14 +15,14 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Music]
+# [Music]
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-[Twitch]
+# [Twitch]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
@@ -37,12 +37,12 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-# [YouTube-Extended]
-# app-name = "YouTube"
-# patches-source = "inotia00/revanced-patches"
-# cli-source = "inotia00/revanced-cli"
-# rv-brand = "ReVanced Extended"
-# build-mode = "both"
+[YouTube-Extended]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
